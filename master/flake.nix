@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-webrtcvad-master.flake = false;
+  inputs.src-webrtcvad-master.ref   = "refs/heads/master";
   inputs.src-webrtcvad-master.owner = "eagledot";
-  inputs.src-webrtcvad-master.ref   = "master";
   inputs.src-webrtcvad-master.repo  = "nim-webrtcvad";
   inputs.src-webrtcvad-master.type  = "gitlab";
   
