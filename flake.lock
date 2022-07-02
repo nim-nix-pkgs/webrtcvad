@@ -36,52 +36,7 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "webrtcvad-master": "webrtcvad-master"
-      }
-    },
-    "src-webrtcvad-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1590880145,
-        "narHash": "sha256-nDlQl0nzcslOTKvB4P4tPzb8cd/H8E36uz6hX8uRXZU=",
-        "owner": "eagledot",
-        "repo": "nim-webrtcvad",
-        "rev": "fc4d79f0887e4244ef6f90bd816641fcb9f7a024",
-        "type": "gitlab"
-      },
-      "original": {
-        "owner": "eagledot",
-        "ref": "refs/heads/master",
-        "repo": "nim-webrtcvad",
-        "type": "gitlab"
-      }
-    },
-    "webrtcvad-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-webrtcvad-master": "src-webrtcvad-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656298200,
-        "narHash": "sha256-fWBrxBNWaYZiQOrcbIZ83vJaOtPt82Epp3fRk/hhOuM=",
-        "owner": "nim-nix-pkgs",
-        "repo": "webrtcvad",
-        "rev": "2a7a3f8162ce77d5341a1bca27ce20135c2417cf",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "webrtcvad",
-        "type": "github"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
